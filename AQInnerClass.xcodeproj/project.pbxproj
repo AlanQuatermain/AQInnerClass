@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB9720A31594A4F2008ECC44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9720A21594A4F2008ECC44 /* Cocoa.framework */; };
+		AB9720AD1594A4F2008ECC44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB9720AB1594A4F2008ECC44 /* InfoPlist.strings */; };
+		AB9720B11594A4F2008ECC44 /* AQInnerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9720B01594A4F2008ECC44 /* AQInnerClass.m */; };
+		AB9720B91594A4F2008ECC44 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9720B81594A4F2008ECC44 /* SenTestingKit.framework */; };
+		AB9720BA1594A4F2008ECC44 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9720A21594A4F2008ECC44 /* Cocoa.framework */; };
+		AB9720BD1594A4F2008ECC44 /* AQInnerClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB97209F1594A4F2008ECC44 /* AQInnerClass.framework */; };
+		AB9720C31594A4F2008ECC44 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB9720C11594A4F2008ECC44 /* InfoPlist.strings */; };
+		AB9720C61594A4F2008ECC44 /* AQInnerClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9720C51594A4F2008ECC44 /* AQInnerClassTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB9720BB1594A4F2008ECC44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB9720951594A4F2008ECC44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB97209E1594A4F2008ECC44;
+			remoteInfo = AQInnerClass;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB97209F1594A4F2008ECC44 /* AQInnerClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AQInnerClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9720A21594A4F2008ECC44 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AB9720A51594A4F2008ECC44 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AB9720A61594A4F2008ECC44 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AB9720A71594A4F2008ECC44 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB9720AA1594A4F2008ECC44 /* AQInnerClass-Info.plist */ = {isa = PBXFileReference; path = "AQInnerClass-Info.plist"; sourceTree = "<group>"; };
+		AB9720AC1594A4F2008ECC44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB9720AE1594A4F2008ECC44 /* AQInnerClass-Prefix.pch */ = {isa = PBXFileReference; path = "AQInnerClass-Prefix.pch"; sourceTree = "<group>"; };
+		AB9720AF1594A4F2008ECC44 /* AQInnerClass.h */ = {isa = PBXFileReference; path = AQInnerClass.h; sourceTree = "<group>"; };
+		AB9720B01594A4F2008ECC44 /* AQInnerClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQInnerClass.m; sourceTree = "<group>"; };
+		AB9720B71594A4F2008ECC44 /* AQInnerClassTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQInnerClassTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9720B81594A4F2008ECC44 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AB9720C01594A4F2008ECC44 /* AQInnerClassTests-Info.plist */ = {isa = PBXFileReference; path = "AQInnerClassTests-Info.plist"; sourceTree = "<group>"; };
+		AB9720C21594A4F2008ECC44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB9720C41594A4F2008ECC44 /* AQInnerClassTests.h */ = {isa = PBXFileReference; path = AQInnerClassTests.h; sourceTree = "<group>"; };
+		AB9720C51594A4F2008ECC44 /* AQInnerClassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQInnerClassTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB97209B1594A4F2008ECC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9720A31594A4F2008ECC44 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9720B31594A4F2008ECC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9720B91594A4F2008ECC44 /* SenTestingKit.framework in Frameworks */,
+				AB9720BA1594A4F2008ECC44 /* Cocoa.framework in Frameworks */,
+				AB9720BD1594A4F2008ECC44 /* AQInnerClass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB9720931594A4F2008ECC44 = {
+			isa = PBXGroup;
+			children = (
+				AB9720A81594A4F2008ECC44 /* AQInnerClass */,
+				AB9720BE1594A4F2008ECC44 /* AQInnerClassTests */,
+				AB9720A11594A4F2008ECC44 /* Frameworks */,
+				AB9720A01594A4F2008ECC44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB9720A01594A4F2008ECC44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB97209F1594A4F2008ECC44 /* AQInnerClass.framework */,
+				AB9720B71594A4F2008ECC44 /* AQInnerClassTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB9720A11594A4F2008ECC44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB9720A21594A4F2008ECC44 /* Cocoa.framework */,
+				AB9720B81594A4F2008ECC44 /* SenTestingKit.framework */,
+				AB9720A41594A4F2008ECC44 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB9720A41594A4F2008ECC44 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB9720A51594A4F2008ECC44 /* AppKit.framework */,
+				AB9720A61594A4F2008ECC44 /* CoreData.framework */,
+				AB9720A71594A4F2008ECC44 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AB9720A81594A4F2008ECC44 /* AQInnerClass */ = {
+			isa = PBXGroup;
+			children = (
+				AB9720AF1594A4F2008ECC44 /* AQInnerClass.h */,
+				AB9720B01594A4F2008ECC44 /* AQInnerClass.m */,
+				AB9720A91594A4F2008ECC44 /* Supporting Files */,
+			);
+			path = AQInnerClass;
+			sourceTree = "<group>";
+		};
+		AB9720A91594A4F2008ECC44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB9720AA1594A4F2008ECC44 /* AQInnerClass-Info.plist */,
+				AB9720AB1594A4F2008ECC44 /* InfoPlist.strings */,
+				AB9720AE1594A4F2008ECC44 /* AQInnerClass-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB9720BE1594A4F2008ECC44 /* AQInnerClassTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB9720C41594A4F2008ECC44 /* AQInnerClassTests.h */,
+				AB9720C51594A4F2008ECC44 /* AQInnerClassTests.m */,
+				AB9720BF1594A4F2008ECC44 /* Supporting Files */,
+			);
+			path = AQInnerClassTests;
+			sourceTree = "<group>";
+		};
+		AB9720BF1594A4F2008ECC44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB9720C01594A4F2008ECC44 /* AQInnerClassTests-Info.plist */,
+				AB9720C11594A4F2008ECC44 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AB97209C1594A4F2008ECC44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AB97209E1594A4F2008ECC44 /* AQInnerClass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9720C91594A4F2008ECC44 /* Build configuration list for PBXNativeTarget "AQInnerClass" */;
+			buildPhases = (
+				AB97209A1594A4F2008ECC44 /* Sources */,
+				AB97209B1594A4F2008ECC44 /* Frameworks */,
+				AB97209C1594A4F2008ECC44 /* Headers */,
+				AB97209D1594A4F2008ECC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AQInnerClass;
+			productName = AQInnerClass;
+			productReference = AB97209F1594A4F2008ECC44 /* AQInnerClass.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB9720B61594A4F2008ECC44 /* AQInnerClassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB9720CC1594A4F3008ECC44 /* Build configuration list for PBXNativeTarget "AQInnerClassTests" */;
+			buildPhases = (
+				AB9720B21594A4F2008ECC44 /* Sources */,
+				AB9720B31594A4F2008ECC44 /* Frameworks */,
+				AB9720B41594A4F2008ECC44 /* Resources */,
+				AB9720B51594A4F2008ECC44 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB9720BC1594A4F2008ECC44 /* PBXTargetDependency */,
+			);
+			name = AQInnerClassTests;
+			productName = AQInnerClassTests;
+			productReference = AB9720B71594A4F2008ECC44 /* AQInnerClassTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB9720951594A4F2008ECC44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Jim Dovey";
+			};
+			buildConfigurationList = AB9720981594A4F2008ECC44 /* Build configuration list for PBXProject "AQInnerClass" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB9720931594A4F2008ECC44;
+			productRefGroup = AB9720A01594A4F2008ECC44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB97209E1594A4F2008ECC44 /* AQInnerClass */,
+				AB9720B61594A4F2008ECC44 /* AQInnerClassTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB97209D1594A4F2008ECC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9720AD1594A4F2008ECC44 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9720B41594A4F2008ECC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9720C31594A4F2008ECC44 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB9720B51594A4F2008ECC44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB97209A1594A4F2008ECC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9720B11594A4F2008ECC44 /* AQInnerClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB9720B21594A4F2008ECC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB9720C61594A4F2008ECC44 /* AQInnerClassTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB9720BC1594A4F2008ECC44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB97209E1594A4F2008ECC44 /* AQInnerClass */;
+			targetProxy = AB9720BB1594A4F2008ECC44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB9720AB1594A4F2008ECC44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9720AC1594A4F2008ECC44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB9720C11594A4F2008ECC44 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB9720C21594A4F2008ECC44 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB9720C71594A4F2008ECC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB9720C81594A4F2008ECC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB9720CA1594A4F2008ECC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AQInnerClass/AQInnerClass-Prefix.pch";
+				INFOPLIST_FILE = "AQInnerClass/AQInnerClass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		AB9720CB1594A4F2008ECC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AQInnerClass/AQInnerClass-Prefix.pch";
+				INFOPLIST_FILE = "AQInnerClass/AQInnerClass-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		AB9720CD1594A4F3008ECC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AQInnerClass/AQInnerClass-Prefix.pch";
+				INFOPLIST_FILE = "AQInnerClassTests/AQInnerClassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AB9720CE1594A4F3008ECC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AQInnerClass/AQInnerClass-Prefix.pch";
+				INFOPLIST_FILE = "AQInnerClassTests/AQInnerClassTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB9720981594A4F2008ECC44 /* Build configuration list for PBXProject "AQInnerClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9720C71594A4F2008ECC44 /* Debug */,
+				AB9720C81594A4F2008ECC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB9720C91594A4F2008ECC44 /* Build configuration list for PBXNativeTarget "AQInnerClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9720CA1594A4F2008ECC44 /* Debug */,
+				AB9720CB1594A4F2008ECC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB9720CC1594A4F3008ECC44 /* Build configuration list for PBXNativeTarget "AQInnerClassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9720CD1594A4F3008ECC44 /* Debug */,
+				AB9720CE1594A4F3008ECC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB9720951594A4F2008ECC44 /* Project object */;
+}
