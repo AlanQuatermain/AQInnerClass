@@ -50,12 +50,14 @@ static int __array[10] = {0,1,2,3,4,5,6,7,8,9};
     
     NSArray * specialArray = [[innerClass alloc] init];
     STAssertEquals([specialArray count], (NSUInteger)10, @"Expected %@ to have a count of 10, but got %lu", specialArray, [specialArray count]);
+    STAssertEquals(testOneCalled, YES, @"Expected our custom -count method to be called!");
     
     // we implement the required primitives for NSArray in our inner class, so this should work
     [specialArray enumerateObjectsUsingBlock: ^(id obj, NSUInteger idx, BOOL *stop) {
         NSNumber * num = [[NSNumber alloc] initWithUnsignedInteger: idx];
         STAssertEqualObjects(obj, num, @"Expected -objectAtIndex: %lu to return %@, got %@", idx, num, obj);
     }];
+    STAssertEquals(testTwoCalled, YES, @"Expected our custom -objectAtIndex: method to be called!");
     
     NSEnumerator * enumerator = [specialArray objectEnumerator];
     id first = [enumerator nextObject];
